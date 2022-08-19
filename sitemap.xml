@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mcsjourney.github.io/article/archives/index.html</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcsjourney.github.io/article/categories/index.html</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcsjourney.github.io/article/tags/index.html</loc>
+    
+    <lastmod>2022-08-19</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mcsjourney.github.io/posts/boke/</loc>
     
     <lastmod>2022-08-19</lastmod>
@@ -11,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/link/index.html</loc>
+    <loc>https://mcsjourney.github.io/about/link/index.html</loc>
     
     <lastmod>2022-08-19</lastmod>
     
@@ -47,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/about/index.html</loc>
+    <loc>https://mcsjourney.github.io/about/me/index.html</loc>
     
     <lastmod>2022-08-18</lastmod>
     
@@ -56,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/list/music/index.html</loc>
+    <loc>https://mcsjourney.github.io/movie&music/music/index.html</loc>
     
     <lastmod>2022-08-18</lastmod>
     
@@ -65,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/list/movie/index.html</loc>
+    <loc>https://mcsjourney.github.io/movie&music/movie/index.html</loc>
     
     <lastmod>2022-08-18</lastmod>
     
@@ -74,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/list/daohang/index.html</loc>
+    <loc>https://mcsjourney.github.io/tool/daohang/index.html</loc>
     
     <lastmod>2022-08-18</lastmod>
     
