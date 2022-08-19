@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博客更新日志</title>
+      <link href="/posts/boke/"/>
+      <url>/posts/boke/</url>
+      
+        <content type="html"><![CDATA[<hr><h1 id="表格预览"><a href="#表格预览" class="headerlink" title="表格预览"></a>表格预览</h1><table><thead><tr><th align="left">版本</th><th align="left">时间</th><th align="left">修改内容</th></tr></thead><tbody><tr><td align="left">VS1.1</td><td align="left">22.08.19</td><td align="left">基本内容</td></tr><tr><td align="left">VS1.2</td><td align="left">22.08.19</td><td align="left">增加搜索、增加评论</td></tr></tbody></table><hr><h1 id="VS-1-2"><a href="#VS-1-2" class="headerlink" title="VS-1.2"></a>VS-1.2</h1><h2 id="增加：搜索功能"><a href="#增加：搜索功能" class="headerlink" title="增加：搜索功能"></a>增加：搜索功能</h2><ol><li><p>参考<a href="https://tzy1997.com/articles/hexo1607/">基于 Hexo 键入搜索功能 | 唐志远の博客 (tzy1997.com)</a></p></li><li><p>运行</p></li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure><ol start="3"><li><font color=red>_config.yml</font></li></ol><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="addition">+search:</span></span><br><span class="line"><span class="addition">+  path: search.xml</span></span><br><span class="line"><span class="addition">+  field: post</span></span><br><span class="line"><span class="addition">+  content: true</span></span><br></pre></td></tr></table></figure><ol start="4"><li><font color=red>_config.butterfly.yml</font></li></ol><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">local_search:</span><br><span class="line"><span class="deletion">-  enable: false</span></span><br><span class="line"><span class="addition">+  enable: true</span></span><br></pre></td></tr></table></figure><h2 id="增加：评论功能"><a href="#增加：评论功能" class="headerlink" title="增加：评论功能"></a>增加：评论功能</h2><ol><li><p>参考：<a href="https://tzy1997.com/articles/hexo1611/">基于 Hexo 键入评论功能 | 唐志远の博客 (tzy1997.com)</a></p></li><li><p><font color=red>_config.butterfly.yml</font></p></li></ol><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">comments:</span><br><span class="line">  # Up to two comments system, the first will be shown as default</span><br><span class="line">  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk</span><br><span class="line"><span class="deletion">-  use: # Valine,Disqus</span></span><br><span class="line"><span class="addition">+  use: twikoo # Valine,Disqus</span></span><br><span class="line">  text: true # Display the comment name next to the button</span><br><span class="line">  # lazyload: The comment system will be load when comment element enters the browser&#x27;s viewport.</span><br><span class="line">  # If you set it to true, the comment count will be invalid</span><br><span class="line">  lazyload: false</span><br><span class="line">  count: false # Display comment count in post&#x27;s top_img</span><br></pre></td></tr></table></figure><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Twikoo</span><br><span class="line"># https://github.com/imaegoo/twikoo</span><br><span class="line">twikoo:</span><br><span class="line"><span class="deletion">-  envId:</span></span><br><span class="line"><span class="addition">+  envId: https://m******t.vercel.app/</span></span><br><span class="line">  region:</span><br><span class="line">  visitor: false</span><br><span class="line">  option:</span><br></pre></td></tr></table></figure><ol start="3"><li><font color=red>特别感谢<a href="https://tzy1997.com/">唐志远の博客 (tzy1997.com)</a>博主帮我解决了Vercel部署所遇到的问题。</font></li></ol><hr><h1 id="VS-1-1"><a href="#VS-1-1" class="headerlink" title="VS-1.1"></a>VS-1.1</h1><h2 id="完成config-butterfly-yml与config-yml-的信息"><a href="#完成config-butterfly-yml与config-yml-的信息" class="headerlink" title="完成config.butterfly.yml与config.yml 的信息"></a>完成<font color=red>config.butterfly.yml</font>与<font color=red>config.yml</font> 的信息</h2><h2 id="完成：封面、头像、社交图标"><a href="#完成：封面、头像、社交图标" class="headerlink" title="完成：封面、头像、社交图标"></a>完成：封面、头像、社交图标</h2><h2 id="完成导航栏初步建设：首页、清单、音乐、电影、导航、友联、关于我"><a href="#完成导航栏初步建设：首页、清单、音乐、电影、导航、友联、关于我" class="headerlink" title="完成导航栏初步建设：首页、清单、音乐、电影、导航、友联、关于我"></a>完成导航栏初步建设：首页、清单、音乐、电影、导航、友联、关于我</h2><h2 id="主题变为dark模式"><a href="#主题变为dark模式" class="headerlink" title="主题变为dark模式"></a>主题变为dark模式</h2><ol><li><font color=red>_config.butterfly.yml</font></li></ol><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Default display mode (網站默認的顯示模式)</span><br><span class="line"># light (default) / dark</span><br><span class="line"><span class="deletion">- display_mode: light</span></span><br><span class="line"><span class="addition">+ display_mode: dark</span></span><br></pre></td></tr></table></figure><h1 id="VS-1-1-1"><a href="#VS-1-1-1" class="headerlink" title="VS-1.1"></a>VS-1.1</h1><h2 id="加入阿里图标库"><a href="#加入阿里图标库" class="headerlink" title="加入阿里图标库"></a>加入阿里图标库</h2><ol><li><p>参考：<a href="https://akilar.top/posts/d2ebecef/">Iconfont Inject</a></p></li><li><p><font color=red>\themes\butterfly\source\css\custom.css</font></p></li></ol><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">svg<span class="selector-class">.icon</span> &#123;</span><br><span class="line">   <span class="attribute">width</span>: <span class="number">1em</span>; <span class="attribute">height</span>: <span class="number">1em</span>;</span><br><span class="line">   <span class="comment">/* width和height定义图标的默认宽度和高度*/</span></span><br><span class="line">   <span class="attribute">vertical-align</span>: -<span class="number">0.15em</span>;</span><br><span class="line">   fill: currentColor;</span><br><span class="line">   <span class="attribute">overflow</span>: hidden;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ol start="3"><li>新建文件<font color=red> \themes\butterfly\scripts\tag\iconfont.js</font></li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&#x27;use strict&#x27;</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">iconFont</span>(<span class="params">args</span>) &#123;</span><br><span class="line">  args = args.<span class="title function_">join</span>(<span class="string">&#x27; &#x27;</span>).<span class="title function_">split</span>(<span class="string">&#x27;,&#x27;</span>)</span><br><span class="line">  <span class="keyword">let</span> p0 = args[<span class="number">0</span>]</span><br><span class="line">  <span class="keyword">let</span> p1 = args[<span class="number">1</span>]?args[<span class="number">1</span>]:<span class="number">1</span></span><br><span class="line">  <span class="keyword">return</span> <span class="string">`&lt;svg class=&quot;icon&quot; style=&quot;width:<span class="subst">$&#123;p1&#125;</span>em; height:<span class="subst">$&#123;p1&#125;</span>em&quot; aria-hidden=&quot;true&quot;&gt;&lt;use xlink:href=&quot;#<span class="subst">$&#123;p0&#125;</span>&quot;&gt;&lt;/use&gt;&lt;/svg&gt;`</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">hexo.<span class="property">extend</span>.<span class="property">tag</span>.<span class="title function_">register</span>(<span class="string">&#x27;icon&#x27;</span>,iconFont);</span><br></pre></td></tr></table></figure><ol start="4"><li><font color=red>_config.butterfly.yml</font> 引入</li></ol><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">    # - &lt;link rel=&quot;stylesheet&quot; href=&quot;/xxx.css&quot;&gt;</span><br><span class="line">    # 阿里图标</span><br><span class="line"><span class="addition">+    - &lt;link rel=&quot;stylesheet&quot; href=&quot;/css/custom.css?v1&quot;&gt;</span></span><br><span class="line">  bottom:</span><br><span class="line">    # - &lt;script src=&quot;xxxx&quot;&gt;&lt;/script&gt;</span><br><span class="line">    # 阿里图标</span><br><span class="line"><span class="addition">+    - &lt;script async src=&quot;//at.alicdn.com/t/c/font_3597153_vfd0sxmva6q.js&quot;&gt;&lt;/script&gt;</span></span><br></pre></td></tr></table></figure><hr><h2 id="2-加入友链"><a href="#2-加入友链" class="headerlink" title="2.加入友链"></a>2.加入友链</h2><ol><li>参考：<a href="https://tzy1997.com/articles/hexo1604/">基于 Hexo 从零开始搭建个人博客（四） | 唐志远の博客 (tzy1997.com)</a></li><li><font color=red>source&#x2F;_data&#x2F;link.yml</font></li></ol><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">友情链接</span></span><br><span class="line">  <span class="attr">class_desc:</span> <span class="string">那些人，那些事</span></span><br><span class="line">  <span class="attr">link_list:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">唐志远の博客</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://tzy1997.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://bu.dusays.com/2022/01/14/cd5ffd485f867.jpg</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">class_name:</span> <span class="string">网站</span></span><br><span class="line">  <span class="attr">class_desc:</span> <span class="string">值得推荐的网站</span></span><br><span class="line">  <span class="attr">link_list:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Twitter</span></span><br><span class="line">      <span class="attr">link:</span> <span class="string">https://twitter.com/</span></span><br><span class="line">      <span class="attr">avatar:</span> <span class="string">https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png</span></span><br><span class="line">      <span class="attr">descr:</span> <span class="string">社交分享平台</span></span><br></pre></td></tr></table></figure><h2 id="VS02-22-08-19"><a href="#VS02-22-08-19" class="headerlink" title="VS02: 22.08.19"></a>VS02: 22.08.19</h2><ol><li><p>更新了主页卡片样式</p><p><img src="https://s2.loli.net/2022/08/18/2YfITJC74MQbdSP.png" alt="image.png"></p></li><li><p>将图标更改为阿里巴巴矢量库外链形式.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">首页: icon-sye</span><br><span class="line">清单: icon-qdan</span><br><span class="line">    音乐: icon-yyue</span><br><span class="line">    电影: icon-dying</span><br><span class="line">    导航: icon-dhang</span><br><span class="line">归档: icon-gdang</span><br><span class="line">标签: icon-bqian</span><br><span class="line">目录: icon-mlv</span><br><span class="line">关于我: icon-love</span><br></pre></td></tr></table></figure></li></ol><p><img src="https://s2.loli.net/2022/08/18/jyekm5oUnw9SsEr.png" alt="image.png"></p><ol start="3"><li><p>删除了“碎碎念”与公告栏</p><table><thead><tr><th><img src="https://s2.loli.net/2022/08/18/Clwrc87ZLQWGiI1.png" alt="image.png" style="zoom:67%;" /></th><th><img src="https://s2.loli.net/2022/08/18/I1pvlrAoj5bQ4SM.png" alt="image.png"></th></tr></thead></table></li><li><p>将页面低端透明化，网页一图流化</p></li><li><p>增加了音乐、电影、关于我页面</p></li><li><p>配置了</p></li></ol><hr><h2 id="VS01-22-08-17"><a href="#VS01-22-08-17" class="headerlink" title="VS01: 22.08.17"></a>VS01: 22.08.17</h2><ol><li>搭建了Hexo+GitHub+Butterfly+SM.MS网页, SM.MS用于图床.</li><li>更新了网页基本要素, 主题用Butterfly.</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>n次根号下的(kn)!</title>
+      <link href="/posts/8502/"/>
+      <url>/posts/8502/</url>
+      
+        <content type="html"><![CDATA[<p><font color=red>命题:</font><br>$\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \infty)$, 即 $\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}&#x3D;\left(\frac{k}{e}\right)^{k}$</p><p><font color=red>证明:</font>(答案可左滑)<br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>&amp;\ln \frac{\sqrt[n]{(k n) !}}{n^{k}}&#x3D;\frac{1}{n} \ln \frac{(k n) !}{n^{k n}}&#x3D;\frac{1}{n} \sum\limits_{i&#x3D;1}^{k n} \ln \frac{i}{n}\<br>  \<br>&amp;\Rightarrow \lim\limits <em>{n \rightarrow \infty} \ln \frac{\sqrt[n]{(k n) !}}{n^{k}}&#x3D;\lim\limits <em>{n \rightarrow \infty} \frac{1}{n} \sum\limits</em>{i&#x3D;1}^{k n} \ln \frac{i}{n}&#x3D;\int</em>{0}^{k} \ln xd x&#x3D;k \ln k-k\<br>  \<br>&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}&#x3D;e^{\lim\limits _{n \rightarrow \infty} \ln  \frac{\sqrt[n]{(k n) !}}{n^{k}}}&#x3D;e^{k \ln k-k}&#x3D;\left(\frac{k}{e}\right)^{k}\<br>  \<br>&amp;\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to \infty)<br>\end{array}<br>}$$</p><p> <font color=red><strong>另证:</strong></font><br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>由Sstirling公式：n!\sim \sqrt{2\pi n}(\frac{n}{e})^n\<br>\<br>\Rightarrow \lim\limits _{n \rightarrow \infty} \sqrt[n]{\frac{1}{\sqrt{2\pi kn}}} \cdot \frac{\sqrt[n]{(k n) !}}{(kn)^{k}}&#x3D;(\frac{1}{e})^k\<br>\<br>\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}&#x3D;\lim\limits _{n \rightarrow \infty} \sqrt[n]{\frac{1}{\sqrt{2\pi kn}}}\cdot\frac{\sqrt[n]{(k n) !}}{(kn)^{k}}\cdot k^k&#x3D;(\frac{k}{e})^k\<br>\<br>\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to \infty)<br>\end{array}<br>}$$ </p><hr><p><font color=red>例1:</font></p><p>证明级数$\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}极限$.<br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>n \to \infty 时, \frac{\sqrt[n]{n!}}{n} \sim \frac{1}{e} \Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}&#x3D;\frac{1}{e}<br>\end{array}<br>}$$  </p><hr><p><font color=red>例2:<font> <font color=black><font><br>级数$\sum\limits_{n&#x3D;1}^{\infty} \frac{(n!)^2}{(2n)!}$收敛.</p><p><font color=red>证明:<font><br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>n \to \infty 时,\sqrt[n]{\frac{(n!)^2}{(2n)!}} &#x3D;\frac{\sqrt[n]{n!}\cdot \sqrt[n]{n!}}{n\cdot n}\cdot \frac{n^2}{\sqrt[n]{(2n)!}} \sim \frac{1}{e} \cdot \frac{1}{e} \cdot (\frac{e}{2})^2&#x3D;\frac{1}{4} \lt 1\<br>\<br>则由根式判别法可知级数收敛<br>\end{array}<br>}$$</p><hr>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 有意思的等价无穷大 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《Stirling公式》</title>
+      <link href="/posts/58458/"/>
+      <url>/posts/58458/</url>
+      
+        <content type="html"><![CDATA[<p><font color=red><strong>Stirling公式：</strong></font><br>  $n\to +\infty时$ ,$n ! \sim \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}$,即$\lim \limits_{n \rightarrow+\infty} \frac{n !}{\sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}}&#x3D;1$</p><hr><p><font color=red><strong>其它等价形式：</strong></font><br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>\lim\limits _{n \rightarrow+\infty} \frac{e^{n} n !}{n^{n} \sqrt{n}}&#x3D;\sqrt{2 \pi}\<br>\<br>\frac{1}{n !} \sim \frac{1}{\sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}}, \quad(n \rightarrow+\infty)\<br>\<br>\frac{1}{n !} \sim \frac{e^{n}}{n^{n} \sqrt{2 \pi n}}, \quad(n \rightarrow+\infty)<br>\end{array}<br>}<br>$$</p><hr><p><font color=red><strong>证明：</strong></font><br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>利用Wallis公式, \frac{\pi}{2}&#x3D;\lim\limits _{n \rightarrow+\infty} \frac{\left[\frac{(2 n) ! !}{(2 n-1) ! !}\right]^{2}}{2 n+1}\<br>\<br>\begin{aligned}<br>\frac{\pi}{2}&amp;&#x3D;\lim\limits  _{n \rightarrow+\infty} \frac{\left[\frac{(2 n) ! !}{(2 n-1) ! !}\right]^{2}}{2 n+1}\<br>&amp;\<br>&amp;&#x3D;\lim\limits  _{n \rightarrow+\infty} \frac{\left[\frac{(2 n) ! !(2 n) ! !}{(2 n) !}\right]^{2}}{2 n+1}\<br>\<br>&amp;&#x3D;\lim \limits _{n \rightarrow+\infty} \frac{2^{4 n}\left[\frac{(n !)^{2}}{(2 n) !}\right]^{2}}{2 n+1}\<br>&amp;\<br>&amp;&#x3D;\lim \limits _{n \rightarrow+\infty} \frac{2^{4 n}\left[\frac{\left(A n^{n+\frac{1}{2}} e^{-n}\right)^{2}}{A(2 n)^{2 n+\frac{1}{2}} e^{-2 n}}\right]^{2}}{2 n+1}\<br>&amp;\<br>&amp;&#x3D;\lim\limits  _{n \rightarrow+\infty} \frac{2^{4 n}\left(2^{-2 n-\frac{1}{2}} A \sqrt{n}\right)^{2}}{2 n+1}\<br>&amp;\<br>&amp;&#x3D;\lim\limits  _{n \rightarrow+\infty} \frac{2^{4 n} A^{2} 2^{-4 n-1} * n}{2 n+1}\<br>\<br>&amp;&#x3D;\frac{A^{2}}{4}<br>\end{aligned}\<br>\<br>所以 A&#x3D;\sqrt{2 \pi}\<br>\<br>\begin{aligned}<br>&amp;\lim _{n \rightarrow+\infty} \frac{n !}{n^{n+\frac{1}{2}} e^{-n}}&#x3D;\sqrt{2 \pi} \<br>&amp;\<br>&amp;\text { 即 } \lim _{n \rightarrow+\infty} \frac{\sqrt{2 \pi n} n^{n} e^{-n}}{n !}&#x3D;1<br>\end{aligned}<br>\end{array}<br>}$$</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 有意思的等价无穷大 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>一道有意思的级数重排问题</title>
+      <link href="/posts/47556/"/>
+      <url>/posts/47556/</url>
+      
+        <content type="html"><![CDATA[<p> <font size=2>之前在知乎上回答的一个级数重排的问题。<font></p><p><font color=red><strong>问题:</strong></font><br>设$0&lt;\alpha&lt;1$, 将级数 $\sum\limits_{n&#x3D;1}^{\infty} \frac{(-1)^{n-1}}{n^{\alpha}}$ 按照每 $p$ 个正项后为 $q$ 个负项的规则进行重排, 但保持正项之间和负项之间的原有顺序, 证明：重排后的级数当且仅当 $p&#x3D;q$ 时收敛.</p><p><font size=2>此证明在一个月所答, 起初想到的是用莱布尼茨判别法证明充分性,用柯西判别法来反证必要性，证明方法位于文后的(题目另证)。现在深入学习级数理论与积分理论，我有了另外的证明方法。<font></p><p><font size=2>第一种方法引理1参考了李杨强化讲义及证明思路部分参考知乎第一楼回答；第二种方法为个人所想, 笔者学识不才, 如有疑问与指正请留言。<font></p><hr><p><font color=red><strong>引理1:</strong></font><br>若 $\lim\limits <em>{n \rightarrow \infty} u</em>{n}&#x3D;0$, 且$ S_{n}&#x3D;\sum\limits_{k&#x3D;1}^{n} u_{k} $有一个子列 $S_{p n} $($p$为固定整数）收敛, 则 $\sum\limits_{n&#x3D;1}^{\infty} u_{n} $收敛。</p><p><font color=red><strong>证明:</strong></font> (可左滑,电脑阅读效果最佳)<br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>\lim\limits <em>{n \rightarrow \infty} S</em>{n} 存在 \Longleftrightarrow \lim\limits <em>{n \rightarrow \infty} S</em>{pn+q}(q&#x3D;0,1,2, \cdots, p-1) 存在且相等\<br>\<br>而 \lim \limits_{n \rightarrow \infty} S_{p n+q}&#x3D;\lim\limits <em>{n \rightarrow \infty} S</em>{p n}+\lim\limits <em>{n \rightarrow \infty}\left(u</em>{p n+1}+\cdots+u_{p n+q}\right)&#x3D;\lim\limits <em>{n \rightarrow \infty} S</em>{p n}\<br>\<br>即 \sum\limits_{n&#x3D;1}^{\infty} u_{n}&#x3D;\lim\limits <em>{n \rightarrow \infty} S</em>{n}&#x3D;\lim\limits <em>{n \rightarrow \infty} S</em>{p n}<br>\end{array}<br>}<br>$$</p><hr><p><font color=red><strong>引理2:</strong></font><br>$\lim\limits <em>{n \rightarrow \infty} n^{\alpha-1} \cdot \sum\limits</em>{k&#x3D;1}^{n} \frac{1}{k^{\alpha}}&#x3D;\frac{1}{1-\alpha} \quad(\alpha \neq 1)$，即$\sum\limits_{k&#x3D;1}^{n} \frac{1}{k^\alpha}&#x3D;\frac{n^{1-\alpha}}{1-\alpha}+\alpha_{n}\left(\lim\limits <em>{n \rightarrow \infty} \alpha</em>{n}&#x3D;0\right)$</p><p><strong>证明:</strong><br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>\lim\limits <em>{n \rightarrow \infty} n^{\alpha-1} \cdot \sum\limits</em>{k&#x3D;1}^{n} \frac{1}{k^{\alpha}}&#x3D;\lim\limits <em>{n \rightarrow \infty} \frac{1}{n} \sum\limits</em>{k&#x3D;1}^{n} \frac{1}{\left(\frac{k}{n}\right)^{\alpha}}&#x3D;\int_{0}^{1} \frac{1}{x^{\alpha}} d x&#x3D;\frac{1}{1-\alpha}<br>\end{array}<br>}$$</p><hr><p><strong>题目证明:</strong></p><p>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>\begin{aligned}<br>S_{(p+q)n}&amp; &#x3D;\left(\frac{1}{1^{\alpha}}+\frac{1}{3^{\alpha}}+\cdots+\frac{1}{\left.(2p-1)^{\alpha}\right.}\right)-\left(\frac{1}{2^{\alpha}}+\cdots+\frac{1}{(2 q)^{\alpha}}\right)+\cdots+ \<br>&amp; \left[\frac{1}{[2(n-1) p+1]^{\alpha}}+\cdots+\frac{1}{(2 p n-1)^{\alpha}}\right]-\left[\frac{1}{[2(q(n-1)+1)]^{\alpha}}+\cdots+\frac{1}{(2 q n)^{\alpha}}\right] \<br>&amp; &#x3D;\sum_{k&#x3D;1}^{p n} \frac{1}{(2 k-1)^{\alpha}}-\sum_{k&#x3D;1}^{q n} \frac{1}{(2 k)^{\alpha}} \<br>&amp; &#x3D;\sum_{k&#x3D;1}^{2pn} \frac{1}{k^{\alpha}}-\sum_{k&#x3D;1}^{p n} \frac{1}{(2 k)^{\alpha}}-\sum_{k&#x3D;1}^{q n} \frac{1}{(2 k)^{\alpha}} \<br>&amp; &#x3D;\sum_{k&#x3D;1}^{2pn} \frac{1}{k^{\alpha}}-\frac{1}{2^ \alpha}\left(\sum_{k&#x3D;1}^{p n} \frac{1}{k^{\alpha}}+\sum_{k&#x3D;1}^{q n} \frac{1}{k^{\alpha}}\right) \<br>&amp;&#x3D;\frac{(2pn)^{1-\alpha}}{1-\alpha}+\alpha_n-\frac{1}{2^\alpha}[\frac{(pn)^{1-\alpha}}{1-\alpha}+\frac{(qn)^{1-\alpha}}{1-\alpha}+\beta_n+\gamma_n]\<br>&amp; &#x3D;\frac{n^{1-\alpha}}{2^{\alpha}(1-\alpha)}\left(p^{1-\alpha}-q^{1-\alpha}\right)+\alpha_{n}-\frac{1}{2^\alpha}\left(\beta_{n}+r_{n}\right)<br>\end{aligned}\<br>\<br>由0\lt \alpha \lt 1知\lim\limits <em>{n \rightarrow \infty}n^{1-\alpha}&#x3D;+\infty , 则\sum\limits</em>{n&#x3D;1}^{\infty} u_{n}收敛\Leftrightarrow S_{(p+q)n}收敛\Leftrightarrow p&#x3D;q<br>\end{array}<br> }$$</p><hr><p><font color=red><strong>题目另证：</strong><font> <font color=black><font><br>$$<br>\bbox[#F5F5F5,10px]<br>{<br>\begin{array}{l}<br>\begin{array}{l}<br>令 a_{2 m-1}&#x3D;\frac{1}{[(2 m-2) p+1]^{\alpha}}+\frac{1}{[(2 m-2) p+3]^{\alpha}}+\cdots+\frac{1}{[2 m p-1]^{\alpha}}, a_{2 m}&#x3D;\frac{1}{[(2 m-2) q+2]^{\alpha}}+\frac{1}{\left[(2 m -2) q+4]^{\alpha}\right.}+\cdots+\frac{1}{(2 m q)^{\alpha}}<br>\end{array}\<br>\<br>必要性： 若重排级数收敛且 p \neq q, 不妨设 p&gt;q\<br>\<br>\begin{aligned}<br>m&gt;1 时, \left|a_{2 m}-a_{2 m-1}\right| &amp;&#x3D;\mid \frac{1}{[(2 m-2) q+1]^{\alpha}}-\frac{1}{[(2m-2) p+1]^{\alpha}}+\cdots+\frac{1}{[(2 m-2) q]^{\alpha}}-\frac{1}{\left[(2m-2)q-1]^{\alpha}\right.}+\cdots+\frac{1}{[2 mp-1]^{\alpha}}| \<br>&amp;&gt;\frac{1}{[(2m-2)q+1]^{\alpha}}+\cdots+\frac{1}{(2 mp-1))^{\alpha}}&gt;\frac{1}{(2 m p-1)^{\alpha}} \<br>\end{aligned}\<br>\<br>\begin{aligned}<br>\Rightarrow\left|S_{4 m+4}-S_{2 m}\right| &amp;&#x3D;\mid\left(a_{4m+4}-a_{4m+3}\right)+\cdots+\left(a_{2 m+2}-a_{2 m+1} \mid\right.\<br>&amp; \geqslant\left|a_{4 m+4}-a_{4m+3}\right|+\cdots+\left|a_{2 m+2}-a_{2 m+1}\right| \<br>&amp;&gt;\frac{m+1}{(4 m+3)^{\alpha}}&#x3D;\frac{1}{4^{\alpha}} \cdot \frac{m+1}{\left(m+\frac{1}{4}\right)^{\alpha}}&gt;\frac{1}{4^{\alpha}}<br>\end{aligned}\<br>\<br>\begin{aligned}<br>取 \varepsilon_{0}&#x3D;\frac{1}{4^{\alpha}}, \forall m, \exists n_{1}&#x3D;4 m+4&gt;m, n_{2}&#x3D;2 m&gt;m 时, 有 \left|S_{4 m+4}-S_{2 m}\right|&gt;\frac{1}{4^{\alpha}}&#x3D;\varepsilon_{0} 即级数发散, 与命题矛盾, 则 p&#x3D;q.\<br>\end{aligned}\<br>\<br>\begin{array}{l}<br>充分性：若 p&#x3D;q,a_{2 m-1}-a_{2 m}&gt;0, a_{2 m}-a_{2 m+1}&gt;0 \Rightarrow\left{a_{m}\right}严格递减, \lim \limits_{m \rightarrow \infty} a_{2 m-1}&#x3D;\lim\limits <em>{m \rightarrow \infty} a</em>{2 m}&#x3D;0 (p, q有限),由莱布尼茨判别法知收敛.<br>\end{array}<br>\end{array}<br>}$$</p><hr><center> <font size=2><center>【内容为个人所答，难免会有错误，请予指正留言】<font>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数学分析 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 级数 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>北京交通大学 2022 年高等代数试卷</title>
+      <link href="/posts/11612/"/>
+      <url>/posts/11612/</url>
+      
+        <content type="html"><![CDATA[<p><strong>北京交通大学 2022 年高等代数试卷</strong></p><p>一. 填空题(每题 3 分)</p><ol><li><p>$2n$ 级排列 $13 \cdots(2 n-1)(2 n)(2 n-2) \cdots 42$ 的逆序数为</p></li><li><p>设 4 阶方阵 $A, B$ 的伴随矩阵为 $A^{<em>}, B^{</em>}$, 且它们的秩为 $r(A)&#x3D;3, r(B)&#x3D;4$, 则秩 $\left(A^{<em>} B^{</em>}\right)&#x3D;$</p></li><li><p>已知实二次型 $f\left(x_{1}, x_{2}, x_{3}\right)&#x3D;x_{1}^{2}+4 x_{2}^{2}+2 x_{3}^{2}+2 a x_{1} x_{2}+2 x_{2} x_{3}$ 正定，则实常数 $a$ 的取值范围为</p></li><li><p>设 $n$ 维列向量 $\alpha&#x3D;(x, 0, \cdots, 0, x)^{T}(x&lt;0)$, 矩阵 $A&#x3D;E-\alpha \alpha^{T}$, 且 $A^{-1}&#x3D;E+\frac{1}{x} \alpha \alpha^{T}$, 其中 $E$ 是单位矩阵, 则 $x&#x3D;$</p></li><li><p>已知实二次型 $f\left(x_{1}, x_{2}, x_{3}\right)&#x3D;2 x_{1}^{2}+3 x_{2}^{2}+3 x_{3}^{2}+2 \lambda x_{2} x_{3}(\lambda&gt;0)$ 经过正交变换 $X&#x3D;Q Y$ 化为标准形 $y_{1}^{2}+2 y_{2}^{2}+5 y_{3}^{2}$, 则实参数 $\lambda&#x3D;$</p></li><li><p>设 $A, B$ 都是 $n$ 阶方阵, 且 $|A|&#x3D;2,|B|&#x3D;3$, 则 $\left|\begin{array}{ll}O &amp; A \ B &amp; O\end{array}\right|&#x3D;$</p></li><li><p>设 $|A|$ 为 $n$ 阶行列式, 其元素 $a_{i j}&#x3D;|i-j|$ (指绝对值), 则行列式 $|A|&#x3D;$</p></li><li><p>多项式 $f(x)&#x3D;2 x^{4}-3 x^{3}-9 x^{2}-8 x-3$ 的有理根为</p></li><li><p>正交变换的特征值为</p></li><li><p>设 $\alpha_{1}&#x3D;(1,1,1,2)^{T}$, $\alpha_{2}&#x3D;(4,6,2 a+7,10)^{T}$, $\alpha_{3}&#x3D;(3, a+4,2 a+5, a+7)^{T}$, $\beta&#x3D;(2,3,2 a+3,5)^{T}$, 若 $\beta$ 不能用 $\alpha_{1}, \alpha_{2}, \alpha_{3}$ 线性表出，则 $a&#x3D;$</p></li></ol><hr><p>二. (15 分) 设 $A&#x3D;\left(a_{i j}\right)<em>{3 \times 3}, A</em>{i j}$ 为行列式 $|A|$ 中元素 $a_{i j}$ 的代数余子式, 且 $A_{i j}&#x3D;a_{i j}$, 又 $a_{11} \neq 0$, 求 $|A|$.</p><hr><p>三. (15 分) 问常数 $a, b$ 各取何值时, 方程组</p><p>$$<br>\left{\begin{array}{l}<br>x_{1}+x_{2}+x_{3}+x_{4}&#x3D;1 \<br>x_{2}-x_{3}+2 x_{4}&#x3D;1 \<br>2 x_{1}+3 x_{2}+(a+2) x_{3}+4 x_{4}&#x3D;b+3 \<br>3 x_{1}+5 x_{2}+x_{3}+(a+8) x_{4}&#x3D;5<br>\end{array}\right.<br>$$</p><p>无解, 有唯一解或有无穷多解, 并在有无穷多解时, 写出其一般解. </p><hr><p>四. (15 分) 设矩阵</p><p>$$<br>A&#x3D;\left(\begin{array}{ccc}<br>a &amp; -2 &amp; 0 \<br>b &amp; 1 &amp; -2 \<br>c &amp; -2 &amp; 0<br>\end{array}\right), B&#x3D;\left(\begin{array}{lll}<br>2 &amp; 1 &amp; 1 \<br>1 &amp; 2 &amp; 1 \<br>1 &amp; 1 &amp; 2<br>\end{array}\right)<br>$$</p><p>(1) 若 $A$ 有特征值 $4,1,-2$, 求 $a, b, c$;</p><p>(2) 设 $\alpha&#x3D;(1, k, 1)^{T}$ 是 $B^{-1}$ 的一个特征向量, 求 $k$.</p><hr><p>五. (15 分) 设 $A, B$ 都是 $n$ 阶实对称矩阵, 且 $A$ 正定, 证明: $AB$ 的特征值都是实数.</p><hr><p>六. (15 分) 设 $\Phi$ 是 $n$ 维线性空间 $V$ 上的一个线性变换, 证明: $\Phi$ 的秩 $+\Phi$ 的零度 $&#x3D;n$.</p><hr><p>七. ( 15 分) 设向量组 $\beta_{1}, \beta_{2}, \cdots, \beta_{m}$ 线性无关, 且</p><p>$$<br>\xi_{i}&#x3D;a_{1 i} \beta_{1}+a_{2 i} \beta_{2}+\cdots+a_{m i} \beta_{m}(i&#x3D;1,2, \cdots, s) .<br>$$</p><p>证明: 向量组 $\xi_{1}, \xi_{2}, \cdots, \xi_{s}$ 的秩 $&#x3D;$ 矩阵 $\left(a_{i j}\right)_{m \times s}$ 的秩.</p><hr><p>八. (15 分) 证明: 若 $\lambda_{0}$ 是正交矩阵 $A$ 的特征值, 则 $\lambda_{0}^{-1}$ 也是 $A$ 的特征值.</p><hr><p>九. ( 15 分) 设 $n$ 阶方阵 $A, B$ 满足 $A B&#x3D;A-B$. 证明:</p><p>(1) $\lambda&#x3D;1$ 不是 $B$ 的特征值;</p><p>(2) 若 $B$ 相似于对角矩阵, 则有可逆矩阵 $T$, 使得 $T^{-1} A T$ 与 $T^{-1} B T$ 均为对角矩阵.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等代数 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考研题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>合肥工业大学2022年高等代数解答</title>
+      <link href="/posts/34558/"/>
+      <url>/posts/34558/</url>
+      
+        <content type="html"><![CDATA[<meta name="referrer" content="never"><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRtRnuh9cAQpic2QiaTfEKIHH2K7mHxM4VOz7b9NOzHOBFh5RFjYL5GVpA/0?wx_fmt=png" alt="第一题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRh1ceRictRhaiabqNZOuNruv5KtrrGMJDoETfic5ZIbnj8pDFThHqSE4cg/0?wx_fmt=png" alt="第二题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRhzhD5W10lIzCwe0LQy2zhvf43alqhSaterTgarIPiaMJASkOtxfVHibw/0?wx_fmt=png" alt="第三题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRrPtibk5GRoAf439J6LlUMyJtlqyuXiaDOgnwTib0KB4613xOjiaHe15JeQ/0?wx_fmt=png" alt="第四题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicROQmAHN718dhPo6sH5zKFSyiaUDRZPFPjoaOSNwvb43rofib35l6OfiaKQ/0?wx_fmt=png" alt="第五题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRzlIsBrZmlGM5PmDymXSOVlCpXIkA7P1sd30Toro5icdjRAEfZ2e1SpQ/0?wx_fmt=png" alt="第六题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicR2ARX9fD2LXFLpSdIr87b6zlhdic5MkYibic5gSm9YPJqder3nqQ3u3HRg/0?wx_fmt=png" alt="第七题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRqeTL2UeboSgxN8OgFBks8StxqTErU2RNZ1bncKAFxPxV9zOEf1kQJg/0?wx_fmt=png" alt="第八题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRu2bVH3GBRfN5oXtLj3ZmBCjXx55ZcFnCicjEbHaav43IOT9gLyucDRg/0?wx_fmt=png" alt="第九题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRJIFwbNWL6ZRfZDhWiaYbKibNIEQhf4XVYc9zlCgfG5IzovFS3zmfcbhA/0?wx_fmt=png" alt="第十题"></p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRoYBYq6w2eOlnbZHib8PGA3ibic1JtuictK0gO8b4cJx9OjibWaiaLNAZ2JuA/0?wx_fmt=png" alt="第十一题"></p><hr><center> <font size=1><center>【内容为个人所答，难免会有错误，请予指正留言】<font>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等代数 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考研题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>河北工业大学2022高等代数解答</title>
+      <link href="/posts/35853/"/>
+      <url>/posts/35853/</url>
+      
+        <content type="html"><![CDATA[<meta name="referrer" content="never"><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaLG7dWjcOp4RgN1Nlg9ibLVzc07m0M8XQ36Tq4wTCe5iawQKb4yIibPibeg/0?wx_fmt=png" alt="第一题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74Jua3rqmPwFfKFq5KXwpQzicd5eA0bWCqToGm3r3t6k5ansSZmtHmiarYMtQ/0?wx_fmt=png" alt="第二题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaCnuR5ul0dDVt2d6U4iaibsQ07dUQiaD8iayvsicmtRSicc8X7tJQJrzzlylw/0?wx_fmt=png" alt="第三题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaNDQicY9X91HkYEvz9owhSyq0SClNTrFojMgt4IaUrRacvpFNiaM9sibaw/0?wx_fmt=png" alt="第四题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuatrDsyNLv9O4JiaDEWGqB4BhvkvUNt5YOtQwgibsGCxICnXratiar2qD1Q/0?wx_fmt=png" alt="第五题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74Juam9jwEExxBsTg1qjY1iaTODI0s4jQ87icFdg0ulta4At2TiaG7pMdF2ouw/0?wx_fmt=png" alt="第六题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaSmNotFSkfosh3fDk0Bl8x6dCrmILmmnrYyt3vbOnp1icpvGiayBmTWpQ/0?wx_fmt=png" alt="第七题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuasAcexPpSfz8vwciaCZUkyloAg2csTfYaGY1GxicrkWzJO8QNjegF8skQ/0?wx_fmt=png" alt="第八题"></p><hr><p><img src="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaG09EqyI8dHp7LpGWvj6zYSArIics9nhHIy4p3v99KDGVEF4Cl4JJHew/0?wx_fmt=png" alt="第九题"></p><hr><center> <font size=1><center>【内容为个人所答，难免会有错误，请予指正留言】<font>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等代数 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考研题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
