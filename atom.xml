@@ -47,30 +47,6 @@
   </entry>
   
   <entry>
-    <title>n次根号下的(kn)!</title>
-    <link href="https://mcsjourney.github.io/mcj/ncghxdkn.html"/>
-    <id>https://mcsjourney.github.io/mcj/ncghxdkn.html</id>
-    <published>2022-08-15T16:00:00.000Z</published>
-    <updated>2022-08-19T20:37:43.376Z</updated>
-    
-    <content type="html"><![CDATA[<p><font color=red><strong>命题:</strong></font> <span class="math inline">\(\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \infty)\)</span>, 即 <span class="math inline">\(\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}=\left(\frac{k}{e}\right)^{k}\)</span></p><p><font color=red><strong>证明:</strong></font>(答案可左滑) <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}&amp;\ln \frac{\sqrt[n]{(k n) !}}{n^{k}}=\frac{1}{n} \ln \frac{(k n) !}{n^{k n}}=\frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \ln \frac{\sqrt[n]{(k n) !}}{n^{k}}=\lim\limits _{n \rightarrow \infty} \frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}=\int_{0}^{k} \ln xd x=k \ln k-k\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}=e^{\lim\limits _{n \rightarrow \infty} \ln  \frac{\sqrt[n]{(k n) !}}{n^{k}}}=e^{k \ln k-k}=\left(\frac{k}{e}\right)^{k}\\  \\&amp;\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to \infty)\end{array}}\]</span></p><p><font color=red><strong>另证:</strong></font> <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}由Sstirling公式：n!\sim \sqrt{2\pi n}(\frac{n}{e})^n\\\\\Rightarrow \lim\limits _{n \rightarrow \infty} \sqrt[n]{\frac{1}{\sqrt{2\pi kn}}} \cdot \frac{\sqrt[n]{(k n) !}}{(kn)^{k}}=(\frac{1}{e})^k\\\\\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}=\lim\limits _{n \rightarrow \infty} \sqrt[n]{\frac{1}{\sqrt{2\pi kn}}}\cdot\frac{\sqrt[n]{(k n) !}}{(kn)^{k}}\cdot k^k=(\frac{k}{e})^k\\\\\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to \infty)\end{array}}\]</span></p><hr /><p><font color=red><strong>例1:</strong></font></p><p>证明级数<span class="math inline">\(\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}极限\)</span>. <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时, \frac{\sqrt[n]{n!}}{n} \sim \frac{1}{e} \Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}=\frac{1}{e}\end{array}}\]</span></p><hr /><p><font color=red><strong>例2:</strong></font> 级数<span class="math inline">\(\sum\limits_{n=1}^{\infty} \frac{(n!)^2}{(2n)!}\)</span>收敛.</p><p><font color=red>证明:</font> <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时,\sqrt[n]{\frac{(n!)^2}{(2n)!}} =\frac{\sqrt[n]{n!}\cdot \sqrt[n]{n!}}{n\cdot n}\cdot \frac{n^2}{\sqrt[n]{(2n)!}} \sim \frac{1}{e} \cdot \frac{1}{e} \cdot (\frac{e}{2})^2=\frac{1}{4} \lt 1\\\\则由根式判别法可知级数收敛\end{array}}\]</span></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;命题:&lt;/strong&gt;&lt;/font&gt; &lt;span class=&quot;math inline&quot;&gt;\(\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \i</summary>
-      
-    
-    
-    
-    <category term="数学分析" scheme="https://mcsjourney.github.io/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
-    
-    
-    <category term="有意思的等价无穷大" scheme="https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/"/>
-    
-  </entry>
-  
-  <entry>
     <title>《Stirling公式》</title>
     <link href="https://mcsjourney.github.io/mcj/Stirlinggs.html"/>
     <id>https://mcsjourney.github.io/mcj/Stirlinggs.html</id>
@@ -83,6 +59,30 @@
       
       
     <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;Stirling公式：&lt;/strong&gt;&lt;/font&gt; &lt;span class=&quot;math inline&quot;&gt;\(n\to +\infty时\)&lt;/span&gt; ,&lt;span class=&quot;math inline&quot;&gt;\(n ! \</summary>
+      
+    
+    
+    
+    <category term="数学分析" scheme="https://mcsjourney.github.io/categories/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    
+    
+    <category term="有意思的等价无穷大" scheme="https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>n次根号下的(kn)!</title>
+    <link href="https://mcsjourney.github.io/mcj/ncghxdkn.html"/>
+    <id>https://mcsjourney.github.io/mcj/ncghxdkn.html</id>
+    <published>2022-08-15T16:00:00.000Z</published>
+    <updated>2022-08-19T20:37:43.376Z</updated>
+    
+    <content type="html"><![CDATA[<p><font color=red><strong>命题:</strong></font> <span class="math inline">\(\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \infty)\)</span>, 即 <span class="math inline">\(\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}=\left(\frac{k}{e}\right)^{k}\)</span></p><p><font color=red><strong>证明:</strong></font>(答案可左滑) <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}&amp;\ln \frac{\sqrt[n]{(k n) !}}{n^{k}}=\frac{1}{n} \ln \frac{(k n) !}{n^{k n}}=\frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \ln \frac{\sqrt[n]{(k n) !}}{n^{k}}=\lim\limits _{n \rightarrow \infty} \frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}=\int_{0}^{k} \ln xd x=k \ln k-k\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}=e^{\lim\limits _{n \rightarrow \infty} \ln  \frac{\sqrt[n]{(k n) !}}{n^{k}}}=e^{k \ln k-k}=\left(\frac{k}{e}\right)^{k}\\  \\&amp;\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to \infty)\end{array}}\]</span></p><p><font color=red><strong>另证:</strong></font> <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}由Sstirling公式：n!\sim \sqrt{2\pi n}(\frac{n}{e})^n\\\\\Rightarrow \lim\limits _{n \rightarrow \infty} \sqrt[n]{\frac{1}{\sqrt{2\pi kn}}} \cdot \frac{\sqrt[n]{(k n) !}}{(kn)^{k}}=(\frac{1}{e})^k\\\\\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n) !}}{n^{k}}=\lim\limits _{n \rightarrow \infty} \sqrt[n]{\frac{1}{\sqrt{2\pi kn}}}\cdot\frac{\sqrt[n]{(k n) !}}{(kn)^{k}}\cdot k^k=(\frac{k}{e})^k\\\\\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to \infty)\end{array}}\]</span></p><hr /><p><font color=red><strong>例1:</strong></font></p><p>证明级数<span class="math inline">\(\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}极限\)</span>. <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时, \frac{\sqrt[n]{n!}}{n} \sim \frac{1}{e} \Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}=\frac{1}{e}\end{array}}\]</span></p><hr /><p><font color=red><strong>例2:</strong></font> 级数<span class="math inline">\(\sum\limits_{n=1}^{\infty} \frac{(n!)^2}{(2n)!}\)</span>收敛.</p><p><font color=red>证明:</font> <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时,\sqrt[n]{\frac{(n!)^2}{(2n)!}} =\frac{\sqrt[n]{n!}\cdot \sqrt[n]{n!}}{n\cdot n}\cdot \frac{n^2}{\sqrt[n]{(2n)!}} \sim \frac{1}{e} \cdot \frac{1}{e} \cdot (\frac{e}{2})^2=\frac{1}{4} \lt 1\\\\则由根式判别法可知级数收敛\end{array}}\]</span></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;命题:&lt;/strong&gt;&lt;/font&gt; &lt;span class=&quot;math inline&quot;&gt;\(\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \i</summary>
       
     
     
