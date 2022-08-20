@@ -4,7 +4,25 @@
   <url>
     <loc>https://mcsjourney.github.io/mcj/bkgxr.html</loc>
     
-    <lastmod>2022-08-19</lastmod>
+    <lastmod>2022-08-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcsjourney.github.io/social/message/index.html</loc>
+    
+    <lastmod>2022-08-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcsjourney.github.io/social/italk/index.html</loc>
+    
+    <lastmod>2022-08-20</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -101,15 +119,6 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/about/index.html</loc>
-    
-    <lastmod>2022-08-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mcsjourney.github.io/about/me/index.html</loc>
     
     <lastmod>2022-08-18</lastmod>
@@ -162,14 +171,14 @@
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/tags/%E7%BA%A7%E6%95%B0/</loc>
+    <loc>https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/</loc>
     <lastmod>2022-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/</loc>
+    <loc>https://mcsjourney.github.io/tags/%E7%BA%A7%E6%95%B0/</loc>
     <lastmod>2022-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
