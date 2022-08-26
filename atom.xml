@@ -3,11 +3,11 @@
   <title>析悦子の梦</title>
   
   
-  <link href="https://mcsjourney.github.io/atom.xml" rel="self"/>
+  <link href="https://mcj.life/atom.xml" rel="self"/>
   
-  <link href="https://mcsjourney.github.io/"/>
+  <link href="https://mcj.life/"/>
   <updated>2022-08-20T18:16:00.000Z</updated>
-  <id>https://mcsjourney.github.io/</id>
+  <id>https://mcj.life/</id>
   
   <author>
     <name>析悦子</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>关于网站初建的感受</title>
-    <link href="https://mcsjourney.github.io/mcj/mydream1.html"/>
-    <id>https://mcsjourney.github.io/mcj/mydream1.html</id>
+    <link href="https://mcj.life/blog/mydream1.html"/>
+    <id>https://mcj.life/blog/mydream1.html</id>
     <published>2022-08-25T04:16:00.000Z</published>
     <updated>2022-08-20T18:16:00.000Z</updated>
     
@@ -30,19 +30,19 @@
     
     
     
-    <category term="随笔" scheme="https://mcsjourney.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://mcj.life/categories/%E9%9A%8F%E7%AC%94/"/>
     
-    <category term="生活" scheme="https://mcsjourney.github.io/categories/%E9%9A%8F%E7%AC%94/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://mcj.life/categories/%E9%9A%8F%E7%AC%94/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="网站" scheme="https://mcsjourney.github.io/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="https://mcj.life/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
   <entry>
     <title>博客更新日志</title>
-    <link href="https://mcsjourney.github.io/mcj/bkgxrz.html"/>
-    <id>https://mcsjourney.github.io/mcj/bkgxrz.html</id>
+    <link href="https://mcj.life/blog/bkgxrz.html"/>
+    <id>https://mcj.life/blog/bkgxrz.html</id>
     <published>2022-08-24T08:33:00.000Z</published>
     <updated>2022-08-26T15:16:51.363Z</updated>
     
@@ -63,17 +63,17 @@
     
     
     
-    <category term="生活" scheme="https://mcsjourney.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://mcj.life/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="日志" scheme="https://mcsjourney.github.io/tags/%E6%97%A5%E5%BF%97/"/>
+    <category term="日志" scheme="https://mcj.life/tags/%E6%97%A5%E5%BF%97/"/>
     
   </entry>
   
   <entry>
     <title>Stirling公式</title>
-    <link href="https://mcsjourney.github.io/mcj/Stirlinggs.html"/>
-    <id>https://mcsjourney.github.io/mcj/Stirlinggs.html</id>
+    <link href="https://mcj.life/blog/Stirlinggs.html"/>
+    <id>https://mcj.life/blog/Stirlinggs.html</id>
     <published>2022-08-15T16:00:00.000Z</published>
     <updated>2022-08-20T18:47:42.991Z</updated>
     
@@ -92,27 +92,27 @@ n\to</summary>
     
     
     
-    <category term="分析学" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
+    <category term="分析学" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
     
-    <category term="数学分析" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    <category term="数学分析" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
     
-    <category term="级数" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/"/>
+    <category term="级数" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/"/>
     
     
-    <category term="分析学" scheme="https://mcsjourney.github.io/tags/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
+    <category term="分析学" scheme="https://mcj.life/tags/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
     
-    <category term="数学分析" scheme="https://mcsjourney.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    <category term="数学分析" scheme="https://mcj.life/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
     
-    <category term="级数" scheme="https://mcsjourney.github.io/tags/%E7%BA%A7%E6%95%B0/"/>
+    <category term="级数" scheme="https://mcj.life/tags/%E7%BA%A7%E6%95%B0/"/>
     
-    <category term="有意思的等价无穷大" scheme="https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/"/>
+    <category term="有意思的等价无穷大" scheme="https://mcj.life/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/"/>
     
   </entry>
   
   <entry>
     <title>n次根号下的(kn)!</title>
-    <link href="https://mcsjourney.github.io/mcj/ncghxdkn.html"/>
-    <id>https://mcsjourney.github.io/mcj/ncghxdkn.html</id>
+    <link href="https://mcj.life/blog/ncghxdkn.html"/>
+    <id>https://mcj.life/blog/ncghxdkn.html</id>
     <published>2022-08-15T16:00:00.000Z</published>
     <updated>2022-08-20T18:47:20.948Z</updated>
     
@@ -131,27 +131,27 @@ class=&quot;math display&quot;&gt;\[
     
     
     
-    <category term="分析学" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
+    <category term="分析学" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
     
-    <category term="数学分析" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    <category term="数学分析" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
     
-    <category term="级数" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/"/>
+    <category term="级数" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/"/>
     
     
-    <category term="分析学" scheme="https://mcsjourney.github.io/tags/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
+    <category term="分析学" scheme="https://mcj.life/tags/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
     
-    <category term="数学分析" scheme="https://mcsjourney.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    <category term="数学分析" scheme="https://mcj.life/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
     
-    <category term="级数" scheme="https://mcsjourney.github.io/tags/%E7%BA%A7%E6%95%B0/"/>
+    <category term="级数" scheme="https://mcj.life/tags/%E7%BA%A7%E6%95%B0/"/>
     
-    <category term="有意思的等价无穷大" scheme="https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/"/>
+    <category term="有意思的等价无穷大" scheme="https://mcj.life/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%A4%A7/"/>
     
   </entry>
   
   <entry>
     <title>一道有意思的级数重排问题</title>
-    <link href="https://mcsjourney.github.io/mcj/ydyysdjswt.html"/>
-    <id>https://mcsjourney.github.io/mcj/ydyysdjswt.html</id>
+    <link href="https://mcj.life/blog/ydyysdjswt.html"/>
+    <id>https://mcj.life/blog/ydyysdjswt.html</id>
     <published>2022-08-15T15:19:00.000Z</published>
     <updated>2022-08-20T18:47:24.308Z</updated>
     
@@ -167,27 +167,27 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="分析学" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
+    <category term="分析学" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
     
-    <category term="数学分析" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    <category term="数学分析" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
     
-    <category term="级数" scheme="https://mcsjourney.github.io/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/"/>
+    <category term="级数" scheme="https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/"/>
     
     
-    <category term="分析学" scheme="https://mcsjourney.github.io/tags/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
+    <category term="分析学" scheme="https://mcj.life/tags/%E5%88%86%E6%9E%90%E5%AD%A6/"/>
     
-    <category term="数学分析" scheme="https://mcsjourney.github.io/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
+    <category term="数学分析" scheme="https://mcj.life/tags/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/"/>
     
-    <category term="级数" scheme="https://mcsjourney.github.io/tags/%E7%BA%A7%E6%95%B0/"/>
+    <category term="级数" scheme="https://mcj.life/tags/%E7%BA%A7%E6%95%B0/"/>
     
-    <category term="有意思的问题" scheme="https://mcsjourney.github.io/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <category term="有意思的问题" scheme="https://mcj.life/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>北京交通大学 2022 年高等代数试卷</title>
-    <link href="https://mcsjourney.github.io/mcj/bjjtdx2022gddsjd.html"/>
-    <id>https://mcsjourney.github.io/mcj/bjjtdx2022gddsjd.html</id>
+    <link href="https://mcj.life/blog/bjjtdx2022gddsjd.html"/>
+    <id>https://mcj.life/blog/bjjtdx2022gddsjd.html</id>
     <published>2022-08-13T16:00:00.000Z</published>
     <updated>2022-08-20T18:47:20.160Z</updated>
     
@@ -204,25 +204,25 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="代数学" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="代数学" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="高等代数" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    <category term="高等代数" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="考研" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
+    <category term="考研" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
     
     
-    <category term="代数学" scheme="https://mcsjourney.github.io/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="代数学" scheme="https://mcj.life/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="高等代数" scheme="https://mcsjourney.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    <category term="高等代数" scheme="https://mcj.life/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="考研试题" scheme="https://mcsjourney.github.io/tags/%E8%80%83%E7%A0%94%E8%AF%95%E9%A2%98/"/>
+    <category term="考研试题" scheme="https://mcj.life/tags/%E8%80%83%E7%A0%94%E8%AF%95%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>合肥工业大学2022年高等代数解答</title>
-    <link href="https://mcsjourney.github.io/mcj/hfgydx2022gddsjd.html"/>
-    <id>https://mcsjourney.github.io/mcj/hfgydx2022gddsjd.html</id>
+    <link href="https://mcj.life/blog/hfgydx2022gddsjd.html"/>
+    <id>https://mcj.life/blog/hfgydx2022gddsjd.html</id>
     <published>2022-08-11T16:00:00.000Z</published>
     <updated>2022-08-25T15:35:44.958Z</updated>
     
@@ -238,25 +238,25 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="代数学" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="代数学" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="高等代数" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    <category term="高等代数" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="考研" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
+    <category term="考研" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
     
     
-    <category term="代数学" scheme="https://mcsjourney.github.io/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="代数学" scheme="https://mcj.life/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="高等代数" scheme="https://mcsjourney.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    <category term="高等代数" scheme="https://mcj.life/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="考研真题解答" scheme="https://mcsjourney.github.io/tags/%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
+    <category term="考研真题解答" scheme="https://mcj.life/tags/%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
     
   </entry>
   
   <entry>
     <title>河北工业大学2022高等代数解答</title>
-    <link href="https://mcsjourney.github.io/mcj/hbgydx2022gddsjd.html"/>
-    <id>https://mcsjourney.github.io/mcj/hbgydx2022gddsjd.html</id>
+    <link href="https://mcj.life/blog/hbgydx2022gddsjd.html"/>
+    <id>https://mcj.life/blog/hbgydx2022gddsjd.html</id>
     <published>2022-08-11T15:50:00.000Z</published>
     <updated>2022-08-25T15:35:47.557Z</updated>
     
@@ -272,18 +272,18 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="代数学" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="代数学" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="高等代数" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    <category term="高等代数" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="考研" scheme="https://mcsjourney.github.io/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
+    <category term="考研" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
     
     
-    <category term="代数学" scheme="https://mcsjourney.github.io/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="代数学" scheme="https://mcj.life/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="高等代数" scheme="https://mcsjourney.github.io/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
+    <category term="高等代数" scheme="https://mcj.life/tags/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
-    <category term="考研真题解答" scheme="https://mcsjourney.github.io/tags/%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
+    <category term="考研真题解答" scheme="https://mcj.life/tags/%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
     
   </entry>
   
