@@ -1,4 +1,4 @@
-let jsonUrl = 'https://websay.vercel.app/api/ispeak?author=6301b1e8ea7dc3a8603bea39' // 在这修改api
+let jsonUrl = 'https://ssn.mcj.life/api/ispeak?author=6301b1e8ea7dc3a8603bea39' // 在这修改api
 
 document.getElementById('bber-talk').addEventListener('click', () => {
     window.location.pathname = '/messages/ispeak/' // 在这修改你的哔哔页面地址

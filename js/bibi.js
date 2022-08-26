@@ -3,7 +3,7 @@ let total = 0
 let nowNum = 0
 let items = []
 let page = 1
-let Url = 'https://websay.vercel.app/api/ispeak?author=6301b1e8ea7dc3a8603bea39&page=' // 修改api，记得带参数page
+let Url = 'https://ssn.mcj.life/api/ispeak?author=6301b1e8ea7dc3a8603bea39&page=' // 修改api，记得带参数page
 
 
 window.addEventListener('DOMContentLoaded', () => {
