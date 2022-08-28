@@ -185,6 +185,13 @@
   </url>
   
   <url>
+    <loc>https://mcj.life/tags/%E8%80%83%E7%A0%94%E8%AF%95%E9%A2%98/</loc>
+    <lastmod>2022-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://mcj.life/tags/%E5%88%86%E6%9E%90%E5%AD%A6/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -220,13 +227,6 @@
   </url>
   
   <url>
-    <loc>https://mcj.life/tags/%E8%80%83%E7%A0%94%E8%AF%95%E9%A2%98/</loc>
-    <lastmod>2022-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mcj.life/tags/%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -234,14 +234,14 @@
   </url>
   
   <url>
-    <loc>https://mcj.life/tags/%E7%A7%9F%E6%88%BF/</loc>
+    <loc>https://mcj.life/tags/%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://mcj.life/tags/%E6%97%A5%E5%BF%97/</loc>
+    <loc>https://mcj.life/tags/%E7%A7%9F%E6%88%BF/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -278,6 +278,13 @@
   </url>
   
   <url>
+    <loc>https://mcj.life/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2022-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -300,13 +307,6 @@
   
   <url>
     <loc>https://mcj.life/categories/%E5%88%86%E6%9E%90%E5%AD%A6/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90/%E7%BA%A7%E6%95%B0/</loc>
-    <lastmod>2022-08-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mcj.life/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2022-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
