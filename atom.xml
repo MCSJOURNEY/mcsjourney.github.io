@@ -39,10 +39,10 @@
     
     <category term="考研" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/"/>
     
-    <category term="笔记" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/%E7%AC%94%E8%AE%B0/"/>
+    <category term="英语" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/%E8%8B%B1%E8%AF%AD/"/>
     
     
-    <category term="英语" scheme="https://mcj.life/tags/%E8%8B%B1%E8%AF%AD/"/>
+    <category term="笔记" scheme="https://mcj.life/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -98,12 +98,10 @@
     
     
     
-    <category term="随笔" scheme="https://mcj.life/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    <category term="生活" scheme="https://mcj.life/categories/%E9%9A%8F%E7%AC%94/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://mcj.life/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="租房" scheme="https://mcj.life/tags/%E7%A7%9F%E6%88%BF/"/>
+    <category term="随笔" scheme="https://mcj.life/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
@@ -126,33 +124,33 @@
     
     
     
-    <category term="随笔" scheme="https://mcj.life/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    <category term="生活" scheme="https://mcj.life/categories/%E9%9A%8F%E7%AC%94/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://mcj.life/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
     <category term="网站" scheme="https://mcj.life/tags/%E7%BD%91%E7%AB%99/"/>
     
+    <category term="随笔" scheme="https://mcj.life/tags/%E9%9A%8F%E7%AC%94/"/>
+    
   </entry>
   
   <entry>
-    <title>n次根号下的(kn)!</title>
-    <link href="https://mcj.life/blog/ncghxdkn.html"/>
-    <id>https://mcj.life/blog/ncghxdkn.html</id>
+    <title>Stirling公式</title>
+    <link href="https://mcj.life/blog/Stirlinggs.html"/>
+    <id>https://mcj.life/blog/Stirlinggs.html</id>
     <published>2022-08-15T16:00:00.000Z</published>
-    <updated>2022-08-20T18:47:20.948Z</updated>
+    <updated>2022-09-04T04:28:57.752Z</updated>
     
-    <content type="html"><![CDATA[<p><font color=red><strong>命题:</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \infty)  \\即 \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n)!}}{n^{k}}=\left(\frac{k}{e}\right)^{k}\end{array}}\]</span></p><p><font color=red><strong>证明:</strong></font>(答案可左滑) <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{aligned}{l}&amp;\ln \frac{\sqrt[n]{(k n) !}}{n^{k}}=\frac{1}{n} \ln \frac{(k n)!}{n^{k n}}=\frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \ln\frac{\sqrt[n]{(k n) !}}{n^{k}}=\lim\limits _{n \rightarrow \infty}\frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}=\int_{0}^{k} \ln xdx=k \ln k-k\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(kn) !}}{n^{k}}=e^{\lim\limits _{n \rightarrow \infty}\ln  \frac{\sqrt[n]{(k n) !}}{n^{k}}}=e^{k \lnk-k}=\left(\frac{k}{e}\right)^{k}\\  \\&amp;\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k}(n\to \infty)\end{aligned}}\]</span></p><p><font color=red><strong>另证:</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}由Sstirling公式：n!\sim \sqrt{2\pi n}(\frac{n}{e})^n\\\\\Rightarrow \lim\limits _{n \rightarrow \infty}\sqrt[n]{\frac{1}{\sqrt{2\pi kn}}} \cdot \frac{\sqrt[n]{(k n)!}}{(kn)^{k}}=(\frac{1}{e})^k\\\\\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n)!}}{n^{k}}=\lim\limits _{n \rightarrow \infty}\sqrt[n]{\frac{1}{\sqrt{2\pi kn}}}\cdot\frac{\sqrt[n]{(k n)!}}{(kn)^{k}}\cdot k^k=(\frac{k}{e})^k\\\\\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to\infty)\end{array}}\]</span></p><hr /><p><font color=red><strong>例1:</strong></font></p><p>证明级数<span class="math inline">\(\lim\limits _{n \rightarrow\infty} \frac{\sqrt[n]{n!}}{n}极限\)</span>. <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时, \frac{\sqrt[n]{n!}}{n} \sim \frac{1}{e} \Rightarrow\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}=\frac{1}{e}\end{array}}\]</span></p><hr /><p><font color=red><strong>例2:</strong></font> 级数<spanclass="math inline">\(\sum\limits_{n=1}^{\infty}\frac{(n!)^2}{(2n)!}\)</span>收敛.</p><p><font color=red>证明:</font> <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时,\sqrt[n]{\frac{(n!)^2}{(2n)!}} =\frac{\sqrt[n]{n!}\cdot\sqrt[n]{n!}}{n\cdot n}\cdot \frac{n^2}{\sqrt[n]{(2n)!}} \sim\frac{1}{e} \cdot \frac{1}{e} \cdot (\frac{e}{2})^2=\frac{1}{4} \lt 1\\\\则由根式判别法可知级数收敛\end{array}}\]</span></p>]]></content>
+    <content type="html"><![CDATA[<p><font color=red><strong>Stirling公式：</strong></font></p><p><span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n\to +\infty时 ,n! \sim \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}\\即\lim \limits_{n \rightarrow+\infty} \frac{n !}{\sqrt{2 \pin}\left(\frac{n}{e}\right)^{n}}=1\end{array}}\]</span></p><hr /><p><font color=red><strong>其它等价形式：</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}\lim\limits _{n \rightarrow+\infty} \frac{e^{n} n !}{n^{n}\sqrt{n}}=\sqrt{2 \pi}\\\\\frac{1}{n !} \sim \frac{1}{\sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}},\quad(n \rightarrow+\infty)\\\\\frac{1}{n !} \sim \frac{e^{n}}{n^{n} \sqrt{2 \pi n}}, \quad(n\rightarrow+\infty)\end{array}}\]</span></p><hr /><p><font color=red><strong>证明：</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}利用Wallis公式, \frac{\pi}{2}=\lim\limits _{n \rightarrow+\infty}\frac{\left[\frac{(2 n) ! !}{(2 n-1) ! !}\right]^{2}}{2 n+1}\\\\\begin{aligned}\frac{\pi}{2}&amp;=\lim\limits  _{n \rightarrow+\infty}\frac{\left[\frac{(2 n) ! !}{(2 n-1) ! !}\right]^{2}}{2 n+1}\\&amp;\\&amp;=\lim\limits  _{n \rightarrow+\infty} \frac{\left[\frac{(2 n) ! !(2n) ! !}{(2 n) !}\right]^{2}}{2 n+1}\\\\&amp;=\lim \limits _{n \rightarrow+\infty} \frac{2^{4 n}\left[\frac{(n!)^{2}}{(2 n) !}\right]^{2}}{2 n+1}\\&amp;\\&amp;=\lim \limits _{n \rightarrow+\infty} \frac{2^{4n}\left[\frac{\left(A n^{n+\frac{1}{2}} e^{-n}\right)^{2}}{A(2 n)^{2n+\frac{1}{2}} e^{-2 n}}\right]^{2}}{2 n+1}\\&amp;\\&amp;=\lim\limits  _{n \rightarrow+\infty} \frac{2^{4 n}\left(2^{-2n-\frac{1}{2}} A \sqrt{n}\right)^{2}}{2 n+1}\\&amp;\\&amp;=\lim\limits  _{n \rightarrow+\infty} \frac{2^{4 n} A^{2} 2^{-4n-1} * n}{2 n+1}\\\\&amp;=\frac{A^{2}}{4}\end{aligned}\\\\所以 A=\sqrt{2 \pi}\\\\\begin{aligned}&amp;\lim _{n \rightarrow+\infty} \frac{n !}{n^{n+\frac{1}{2}}e^{-n}}=\sqrt{2 \pi} \\&amp;\\&amp;\text { 即 } \lim _{n \rightarrow+\infty} \frac{\sqrt{2 \pi n}n^{n} e^{-n}}{n !}=1\end{aligned}\end{array}}\]</span></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;命题:&lt;/strong&gt;&lt;/font&gt; &lt;span
-class=&quot;math display&quot;&gt;\[
+    <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;Stirling公式：&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;\[
 \bbox[#F5F5F5,10px]
 {
 \begin{array}{l}
-\sqrt[n]{(kn!)} \si</summary>
+n\to</summary>
       
     
     
@@ -175,23 +173,23 @@ class=&quot;math display&quot;&gt;\[
   </entry>
   
   <entry>
-    <title>Stirling公式</title>
-    <link href="https://mcj.life/blog/Stirlinggs.html"/>
-    <id>https://mcj.life/blog/Stirlinggs.html</id>
+    <title>n次根号下的(kn)!</title>
+    <link href="https://mcj.life/blog/ncghxdkn.html"/>
+    <id>https://mcj.life/blog/ncghxdkn.html</id>
     <published>2022-08-15T16:00:00.000Z</published>
-    <updated>2022-08-20T18:47:42.991Z</updated>
+    <updated>2022-08-20T18:47:20.948Z</updated>
     
-    <content type="html"><![CDATA[<p><font color=red><strong>Stirling公式：</strong></font></p><p><span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n\to +\infty时 ,n! \sim \sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}\\即\lim \limits_{n \rightarrow+\infty} \frac{n !}{\sqrt{2 \pin}\left(\frac{n}{e}\right)^{n}}=1\end{array}}\]</span></p><hr /><p><font color=red><strong>其它等价形式：</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}\lim\limits _{n \rightarrow+\infty} \frac{e^{n} n !}{n^{n}\sqrt{n}}=\sqrt{2 \pi}\\\\\frac{1}{n !} \sim \frac{1}{\sqrt{2 \pi n}\left(\frac{n}{e}\right)^{n}},\quad(n \rightarrow+\infty)\\\\\frac{1}{n !} \sim \frac{e^{n}}{n^{n} \sqrt{2 \pi n}}, \quad(n\rightarrow+\infty)\end{array}}\]</span></p><hr /><p><font color=red><strong>证明：</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}利用Wallis公式, \frac{\pi}{2}=\lim\limits _{n \rightarrow+\infty}\frac{\left[\frac{(2 n) ! !}{(2 n-1) ! !}\right]^{2}}{2 n+1}\\\\\begin{aligned}\frac{\pi}{2}&amp;=\lim\limits  _{n \rightarrow+\infty}\frac{\left[\frac{(2 n) ! !}{(2 n-1) ! !}\right]^{2}}{2 n+1}\\&amp;\\&amp;=\lim\limits  _{n \rightarrow+\infty} \frac{\left[\frac{(2 n) ! !(2n) ! !}{(2 n) !}\right]^{2}}{2 n+1}\\\\&amp;=\lim \limits _{n \rightarrow+\infty} \frac{2^{4 n}\left[\frac{(n!)^{2}}{(2 n) !}\right]^{2}}{2 n+1}\\&amp;\\&amp;=\lim \limits _{n \rightarrow+\infty} \frac{2^{4n}\left[\frac{\left(A n^{n+\frac{1}{2}} e^{-n}\right)^{2}}{A(2 n)^{2n+\frac{1}{2}} e^{-2 n}}\right]^{2}}{2 n+1}\\&amp;\\&amp;=\lim\limits  _{n \rightarrow+\infty} \frac{2^{4 n}\left(2^{-2n-\frac{1}{2}} A \sqrt{n}\right)^{2}}{2 n+1}\\&amp;\\&amp;=\lim\limits  _{n \rightarrow+\infty} \frac{2^{4 n} A^{2} 2^{-4n-1} * n}{2 n+1}\\\\&amp;=\frac{A^{2}}{4}\end{aligned}\\\\所以 A=\sqrt{2 \pi}\\\\\begin{aligned}&amp;\lim _{n \rightarrow+\infty} \frac{n !}{n^{n+\frac{1}{2}}e^{-n}}=\sqrt{2 \pi} \\&amp;\\&amp;\text { 即 } \lim _{n \rightarrow+\infty} \frac{\sqrt{2 \pi n}n^{n} e^{-n}}{n !}=1\end{aligned}\end{array}}\]</span></p>]]></content>
+    <content type="html"><![CDATA[<p><font color=red><strong>命题:</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}\sqrt[n]{(kn!)} \sim (\frac{kn}{e})^k~(k\in \mathbb{Z_+}, n\to \infty)  \\即 \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n)!}}{n^{k}}=\left(\frac{k}{e}\right)^{k}\end{array}}\]</span></p><p><font color=red><strong>证明:</strong></font>(答案可左滑) <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{aligned}{l}&amp;\ln \frac{\sqrt[n]{(k n) !}}{n^{k}}=\frac{1}{n} \ln \frac{(k n)!}{n^{k n}}=\frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \ln\frac{\sqrt[n]{(k n) !}}{n^{k}}=\lim\limits _{n \rightarrow \infty}\frac{1}{n} \sum\limits_{i=1}^{k n} \ln \frac{i}{n}=\int_{0}^{k} \ln xdx=k \ln k-k\\  \\&amp;\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(kn) !}}{n^{k}}=e^{\lim\limits _{n \rightarrow \infty}\ln  \frac{\sqrt[n]{(k n) !}}{n^{k}}}=e^{k \lnk-k}=\left(\frac{k}{e}\right)^{k}\\  \\&amp;\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k}(n\to \infty)\end{aligned}}\]</span></p><p><font color=red><strong>另证:</strong></font> <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}由Sstirling公式：n!\sim \sqrt{2\pi n}(\frac{n}{e})^n\\\\\Rightarrow \lim\limits _{n \rightarrow \infty}\sqrt[n]{\frac{1}{\sqrt{2\pi kn}}} \cdot \frac{\sqrt[n]{(k n)!}}{(kn)^{k}}=(\frac{1}{e})^k\\\\\Rightarrow \lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{(k n)!}}{n^{k}}=\lim\limits _{n \rightarrow \infty}\sqrt[n]{\frac{1}{\sqrt{2\pi kn}}}\cdot\frac{\sqrt[n]{(k n)!}}{(kn)^{k}}\cdot k^k=(\frac{k}{e})^k\\\\\Rightarrow \sqrt[n]{(k n) !} \sim\left(\frac{k n}{e}\right)^{k} (n\to\infty)\end{array}}\]</span></p><hr /><p><font color=red><strong>例1:</strong></font></p><p>证明级数<span class="math inline">\(\lim\limits _{n \rightarrow\infty} \frac{\sqrt[n]{n!}}{n}极限\)</span>. <spanclass="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时, \frac{\sqrt[n]{n!}}{n} \sim \frac{1}{e} \Rightarrow\lim\limits _{n \rightarrow \infty} \frac{\sqrt[n]{n!}}{n}=\frac{1}{e}\end{array}}\]</span></p><hr /><p><font color=red><strong>例2:</strong></font> 级数<spanclass="math inline">\(\sum\limits_{n=1}^{\infty}\frac{(n!)^2}{(2n)!}\)</span>收敛.</p><p><font color=red>证明:</font> <span class="math display">\[\bbox[#F5F5F5,10px]{\begin{array}{l}n \to \infty 时,\sqrt[n]{\frac{(n!)^2}{(2n)!}} =\frac{\sqrt[n]{n!}\cdot\sqrt[n]{n!}}{n\cdot n}\cdot \frac{n^2}{\sqrt[n]{(2n)!}} \sim\frac{1}{e} \cdot \frac{1}{e} \cdot (\frac{e}{2})^2=\frac{1}{4} \lt 1\\\\则由根式判别法可知级数收敛\end{array}}\]</span></p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;Stirling公式：&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;math display&quot;&gt;\[
+    <summary type="html">&lt;p&gt;&lt;font color=red&gt;&lt;strong&gt;命题:&lt;/strong&gt;&lt;/font&gt; &lt;span
+class=&quot;math display&quot;&gt;\[
 \bbox[#F5F5F5,10px]
 {
 \begin{array}{l}
-n\to</summary>
+\sqrt[n]{(kn!)} \si</summary>
       
     
     
@@ -254,7 +252,7 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     <link href="https://mcj.life/blog/bjjtdx2022gddsjd.html"/>
     <id>https://mcj.life/blog/bjjtdx2022gddsjd.html</id>
     <published>2022-08-13T16:00:00.000Z</published>
-    <updated>2022-08-20T18:47:20.160Z</updated>
+    <updated>2022-09-04T04:29:04.467Z</updated>
     
     <content type="html"><![CDATA[<p><strong>北京交通大学 2022 年高等代数试卷</strong></p><p>一. 填空题(每题 3 分)</p><ol type="1"><li><p><span class="math inline">\(2n\)</span> 级排列 <spanclass="math inline">\(13 \cdots(2 n-1)(2 n)(2 n-2) \cdots 42\)</span>的逆序数为</p></li><li><p>设 4 阶方阵 <span class="math inline">\(A, B\)</span>的伴随矩阵为 <span class="math inline">\(A^{*}, B^{*}\)</span>,且它们的秩为 <span class="math inline">\(r(A)=3, r(B)=4\)</span>, 则秩<span class="math inline">\(\left(A^{*} B^{*}\right)=\)</span></p></li><li><p>已知实二次型 <span class="math inline">\(f\left(x_{1}, x_{2},x_{3}\right)=x_{1}^{2}+4 x_{2}^{2}+2 x_{3}^{2}+2 a x_{1} x_{2}+2 x_{2}x_{3}\)</span> 正定，则实常数 <span class="math inline">\(a\)</span>的取值范围为</p></li><li><p>设 <span class="math inline">\(n\)</span> 维列向量 <spanclass="math inline">\(\alpha=(x, 0, \cdots, 0, x)^{T}(x&lt;0)\)</span>,矩阵 <span class="math inline">\(A=E-\alpha \alpha^{T}\)</span>, 且<span class="math inline">\(A^{-1}=E+\frac{1}{x} \alpha\alpha^{T}\)</span>, 其中 <span class="math inline">\(E\)</span>是单位矩阵, 则 <span class="math inline">\(x=\)</span></p></li><li><p>已知实二次型 <span class="math inline">\(f\left(x_{1}, x_{2},x_{3}\right)=2 x_{1}^{2}+3 x_{2}^{2}+3 x_{3}^{2}+2 \lambda x_{2}x_{3}(\lambda&gt;0)\)</span> 经过正交变换 <spanclass="math inline">\(X=Q Y\)</span> 化为标准形 <spanclass="math inline">\(y_{1}^{2}+2 y_{2}^{2}+5 y_{3}^{2}\)</span>,则实参数 <span class="math inline">\(\lambda=\)</span></p></li><li><p>设 <span class="math inline">\(A, B\)</span> 都是 <spanclass="math inline">\(n\)</span> 阶方阵, 且 <spanclass="math inline">\(|A|=2,|B|=3\)</span>, 则 <spanclass="math inline">\(\left|\begin{array}{ll}O &amp; A \\ B &amp;O\end{array}\right|=\)</span></p></li><li><p>设 <span class="math inline">\(|A|\)</span> 为 <spanclass="math inline">\(n\)</span> 阶行列式, 其元素 <spanclass="math inline">\(a_{i j}=|i-j|\)</span> (指绝对值), 则行列式 <spanclass="math inline">\(|A|=\)</span></p></li><li><p>多项式 <span class="math inline">\(f(x)=2 x^{4}-3 x^{3}-9 x^{2}-8x-3\)</span> 的有理根为</p></li><li><p>正交变换的特征值为</p></li><li><p>设 <span class="math inline">\(\alpha_{1}=(1,1,1,2)^{T}\)</span>,<span class="math inline">\(\alpha_{2}=(4,6,2 a+7,10)^{T}\)</span>,<span class="math inline">\(\alpha_{3}=(3, a+4,2 a+5, a+7)^{T}\)</span>,<span class="math inline">\(\beta=(2,3,2 a+3,5)^{T}\)</span>, 若 <spanclass="math inline">\(\beta\)</span> 不能用 <spanclass="math inline">\(\alpha_{1}, \alpha_{2}, \alpha_{3}\)</span>线性表出，则 <span class="math inline">\(a=\)</span></p></li></ol><hr /><p>二. (15 分) 设 <span class="math inline">\(A=\left(a_{i j}\right)_{3\times 3}, A_{i j}\)</span> 为行列式 <spanclass="math inline">\(|A|\)</span> 中元素 <spanclass="math inline">\(a_{i j}\)</span> 的代数余子式, 且 <spanclass="math inline">\(A_{i j}=a_{i j}\)</span>, 又 <spanclass="math inline">\(a_{11} \neq 0\)</span>, 求 <spanclass="math inline">\(|A|\)</span>.</p><hr /><p>三. (15 分) 问常数 <span class="math inline">\(a, b\)</span>各取何值时, 方程组</p><p><span class="math display">\[\left\{\begin{array}{l}x_{1}+x_{2}+x_{3}+x_{4}=1 \\x_{2}-x_{3}+2 x_{4}=1 \\2 x_{1}+3 x_{2}+(a+2) x_{3}+4 x_{4}=b+3 \\3 x_{1}+5 x_{2}+x_{3}+(a+8) x_{4}=5\end{array}\right.\]</span></p><p>无解, 有唯一解或有无穷多解, 并在有无穷多解时, 写出其一般解.</p><hr /><p>四. (15 分) 设矩阵</p><p><span class="math display">\[A=\left(\begin{array}{ccc}a &amp; -2 &amp; 0 \\b &amp; 1 &amp; -2 \\c &amp; -2 &amp; 0\end{array}\right), B=\left(\begin{array}{lll}2 &amp; 1 &amp; 1 \\1 &amp; 2 &amp; 1 \\1 &amp; 1 &amp; 2\end{array}\right)\]</span></p><ol type="1"><li><p>若 <span class="math inline">\(A\)</span> 有特征值 <spanclass="math inline">\(4,1,-2\)</span>, 求 <span class="math inline">\(a,b, c\)</span>;</p></li><li><p>设 <span class="math inline">\(\alpha=(1, k, 1)^{T}\)</span> 是<span class="math inline">\(B^{-1}\)</span> 的一个特征向量, 求 <spanclass="math inline">\(k\)</span>.</p></li></ol><hr /><p>五. (15 分) 设 <span class="math inline">\(A, B\)</span> 都是 <spanclass="math inline">\(n\)</span> 阶实对称矩阵, 且 <spanclass="math inline">\(A\)</span> 正定, 证明: <spanclass="math inline">\(AB\)</span> 的特征值都是实数.</p><hr /><p>六. (15 分) 设 <span class="math inline">\(\Phi\)</span> 是 <spanclass="math inline">\(n\)</span> 维线性空间 <spanclass="math inline">\(V\)</span> 上的一个线性变换, 证明: <spanclass="math inline">\(\Phi\)</span> 的秩 <spanclass="math inline">\(+\Phi\)</span> 的零度 <spanclass="math inline">\(=n\)</span>.</p><hr /><p>七. ( 15 分) 设向量组 <span class="math inline">\(\beta_{1},\beta_{2}, \cdots, \beta_{m}\)</span> 线性无关, 且</p><p><span class="math display">\[\xi_{i}=a_{1 i} \beta_{1}+a_{2 i} \beta_{2}+\cdots+a_{m i}\beta_{m}(i=1,2, \cdots, s) .\]</span></p><p>证明: 向量组 <span class="math inline">\(\xi_{1}, \xi_{2}, \cdots,\xi_{s}\)</span> 的秩 <span class="math inline">\(=\)</span> 矩阵 <spanclass="math inline">\(\left(a_{i j}\right)_{m \times s}\)</span>的秩.</p><hr /><p>八. (15 分) 证明: 若 <span class="math inline">\(\lambda_{0}\)</span>是正交矩阵 <span class="math inline">\(A\)</span> 的特征值, 则 <spanclass="math inline">\(\lambda_{0}^{-1}\)</span> 也是 <spanclass="math inline">\(A\)</span> 的特征值.</p><hr /><p>九. ( 15 分) 设 <span class="math inline">\(n\)</span> 阶方阵 <spanclass="math inline">\(A, B\)</span> 满足 <span class="math inline">\(AB=A-B\)</span>. 证明:</p><ol type="1"><li><p><span class="math inline">\(\lambda=1\)</span> 不是 <spanclass="math inline">\(B\)</span> 的特征值;</p></li><li><p>若 <span class="math inline">\(B\)</span> 相似于对角矩阵,则有可逆矩阵 <span class="math inline">\(T\)</span>, 使得 <spanclass="math inline">\(T^{-1} A T\)</span> 与 <spanclass="math inline">\(T^{-1} B T\)</span> 均为对角矩阵.</p></li></ol>]]></content>
     
@@ -269,11 +267,9 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="代数学" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="考研" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/"/>
     
-    <category term="高等代数" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
-    
-    <category term="考研" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
+    <category term="高等代数" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
     
     <category term="代数学" scheme="https://mcj.life/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
@@ -289,7 +285,7 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     <link href="https://mcj.life/blog/hfgydx2022gddsjd.html"/>
     <id>https://mcj.life/blog/hfgydx2022gddsjd.html</id>
     <published>2022-08-11T16:00:00.000Z</published>
-    <updated>2022-08-25T15:35:44.958Z</updated>
+    <updated>2022-09-04T04:29:02.587Z</updated>
     
     <content type="html"><![CDATA[<meta name="referrer" content="never"><meta data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRtRnuh9cAQpic2QiaTfEKIHH2K7mHxM4VOz7b9NOzHOBFh5RFjYL5GVpA/0?wx_fmt=png"alt="第一题" /><figcaption aria-hidden="true">第一题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRh1ceRictRhaiabqNZOuNruv5KtrrGMJDoETfic5ZIbnj8pDFThHqSE4cg/0?wx_fmt=png"alt="第二题" /><figcaption aria-hidden="true">第二题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRhzhD5W10lIzCwe0LQy2zhvf43alqhSaterTgarIPiaMJASkOtxfVHibw/0?wx_fmt=png"alt="第三题" /><figcaption aria-hidden="true">第三题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRrPtibk5GRoAf439J6LlUMyJtlqyuXiaDOgnwTib0KB4613xOjiaHe15JeQ/0?wx_fmt=png"alt="第四题" /><figcaption aria-hidden="true">第四题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicROQmAHN718dhPo6sH5zKFSyiaUDRZPFPjoaOSNwvb43rofib35l6OfiaKQ/0?wx_fmt=png"alt="第五题" /><figcaption aria-hidden="true">第五题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRzlIsBrZmlGM5PmDymXSOVlCpXIkA7P1sd30Toro5icdjRAEfZ2e1SpQ/0?wx_fmt=png"alt="第六题" /><figcaption aria-hidden="true">第六题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicR2ARX9fD2LXFLpSdIr87b6zlhdic5MkYibic5gSm9YPJqder3nqQ3u3HRg/0?wx_fmt=png"alt="第七题" /><figcaption aria-hidden="true">第七题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRqeTL2UeboSgxN8OgFBks8StxqTErU2RNZ1bncKAFxPxV9zOEf1kQJg/0?wx_fmt=png"alt="第八题" /><figcaption aria-hidden="true">第八题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRu2bVH3GBRfN5oXtLj3ZmBCjXx55ZcFnCicjEbHaav43IOT9gLyucDRg/0?wx_fmt=png"alt="第九题" /><figcaption aria-hidden="true">第九题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRJIFwbNWL6ZRfZDhWiaYbKibNIEQhf4XVYc9zlCgfG5IzovFS3zmfcbhA/0?wx_fmt=png"alt="第十题" /><figcaption aria-hidden="true">第十题</figcaption></figure><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibS9Mibx0PzClWibZmkUVSkLicRoYBYq6w2eOlnbZHib8PGA3ibic1JtuictK0gO8b4cJx9OjibWaiaLNAZ2JuA/0?wx_fmt=png"alt="第十一题" /><figcaption aria-hidden="true">第十一题</figcaption></figure><hr /><center><font size=1><center><p>【内容为个人所答，难免会有错误，请予指正留言】<font></p>]]></content>
     
@@ -303,11 +299,9 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="代数学" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="考研" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/"/>
     
-    <category term="高等代数" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
-    
-    <category term="考研" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
+    <category term="高等代数" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
     
     <category term="代数学" scheme="https://mcj.life/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
@@ -323,7 +317,7 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     <link href="https://mcj.life/blog/hbgydx2022gddsjd.html"/>
     <id>https://mcj.life/blog/hbgydx2022gddsjd.html</id>
     <published>2022-08-11T15:50:00.000Z</published>
-    <updated>2022-08-25T15:35:47.557Z</updated>
+    <updated>2022-09-04T04:29:00.353Z</updated>
     
     <content type="html"><![CDATA[<meta name="referrer" content="never">﻿<meta data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal"><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaLG7dWjcOp4RgN1Nlg9ibLVzc07m0M8XQ36Tq4wTCe5iawQKb4yIibPibeg/0?wx_fmt=png"alt="第一题" /><figcaption aria-hidden="true">第一题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74Jua3rqmPwFfKFq5KXwpQzicd5eA0bWCqToGm3r3t6k5ansSZmtHmiarYMtQ/0?wx_fmt=png"alt="第二题" /><figcaption aria-hidden="true">第二题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaCnuR5ul0dDVt2d6U4iaibsQ07dUQiaD8iayvsicmtRSicc8X7tJQJrzzlylw/0?wx_fmt=png"alt="第三题" /><figcaption aria-hidden="true">第三题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaNDQicY9X91HkYEvz9owhSyq0SClNTrFojMgt4IaUrRacvpFNiaM9sibaw/0?wx_fmt=png"alt="第四题" /><figcaption aria-hidden="true">第四题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuatrDsyNLv9O4JiaDEWGqB4BhvkvUNt5YOtQwgibsGCxICnXratiar2qD1Q/0?wx_fmt=png"alt="第五题" /><figcaption aria-hidden="true">第五题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74Juam9jwEExxBsTg1qjY1iaTODI0s4jQ87icFdg0ulta4At2TiaG7pMdF2ouw/0?wx_fmt=png"alt="第六题" /><figcaption aria-hidden="true">第六题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaSmNotFSkfosh3fDk0Bl8x6dCrmILmmnrYyt3vbOnp1icpvGiayBmTWpQ/0?wx_fmt=png"alt="第七题" /><figcaption aria-hidden="true">第七题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuasAcexPpSfz8vwciaCZUkyloAg2csTfYaGY1GxicrkWzJO8QNjegF8skQ/0?wx_fmt=png"alt="第八题" /><figcaption aria-hidden="true">第八题</figcaption></figure><hr /><figure><imgsrc="https://mmbiz.qpic.cn/mmbiz_png/CiaeibFhKpaibSYgNqcz5XMpIichNdC74JuaG09EqyI8dHp7LpGWvj6zYSArIics9nhHIy4p3v99KDGVEF4Cl4JJHew/0?wx_fmt=png"alt="第九题" /><figcaption aria-hidden="true">第九题</figcaption></figure><hr /><center><font size=1><center><p>【内容为个人所答，难免会有错误，请予指正留言】<font></p>]]></content>
     
@@ -337,11 +331,9 @@ class=&quot;math inline&quot;&gt;\(0&amp;lt;\alpha&amp;lt;1</summary>
     
     
     
-    <category term="代数学" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
+    <category term="考研" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/"/>
     
-    <category term="高等代数" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
-    
-    <category term="考研" scheme="https://mcj.life/categories/%E4%BB%A3%E6%95%B0%E5%AD%A6/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/%E8%80%83%E7%A0%94/"/>
+    <category term="高等代数" scheme="https://mcj.life/categories/%E8%80%83%E7%A0%94/%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0/"/>
     
     
     <category term="代数学" scheme="https://mcj.life/tags/%E4%BB%A3%E6%95%B0%E5%AD%A6/"/>
