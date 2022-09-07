@@ -42,6 +42,8 @@
           
           <category> 考研 </category>
           
+          <category> 计划 </category>
+          
       </categories>
       
       
@@ -149,9 +151,9 @@
       
         <tags>
             
-            <tag> 网站 </tag>
-            
             <tag> 随笔 </tag>
+            
+            <tag> 网站 </tag>
             
         </tags>
       
