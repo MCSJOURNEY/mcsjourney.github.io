@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://mcj.life/tags/index.html</loc>
+    
+    <lastmod>2022-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcj.life/categories/index.html</loc>
+    
+    <lastmod>2022-09-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mcj.life/blog/syxyywxtkbj.html</loc>
     
     <lastmod>2022-09-07</lastmod>
@@ -146,25 +164,7 @@
   </url>
   
   <url>
-    <loc>https://mcj.life/tags/index.html</loc>
-    
-    <lastmod>2022-08-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://mcj.life/movie&music/movie/index.html</loc>
-    
-    <lastmod>2022-08-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mcj.life/categories/index.html</loc>
     
     <lastmod>2022-08-20</lastmod>
     
@@ -256,13 +256,6 @@
   </url>
   
   <url>
-    <loc>https://mcj.life/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2022-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mcj.life/tags/%E7%BD%91%E7%AB%99/</loc>
     <lastmod>2022-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -292,6 +285,13 @@
   
   <url>
     <loc>https://mcj.life/tags/%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2022-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mcj.life/tags/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2022-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
